@@ -4,7 +4,7 @@ from game import initialize_game
 from night import run_night
 from vote import run_vote
 
-st.title("เกมล่าแม่มด (Mafia Game)")
+st.title("เกมมนุษย์หมาป่า (werewolf Game)")
 
 if 'players' not in st.session_state:
     players_input = st.text_input("ใส่ชื่อผู้เล่น (คั่นด้วยคอมมา):")
